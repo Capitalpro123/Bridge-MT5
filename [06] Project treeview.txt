@@ -1,0 +1,121 @@
+﻿╔═══════════════════════════════════════════════════════════════════════╗
+║                    PROJECT STRUCTURE TREE VIEW                        ║
+║                                                                       ║
+╚═══════════════════════════════════════════════════════════════════════╝
+📁 V1.0
+├── 📄 bridge.csproj
+├── 📄 bridge.sln
+├── 📄 puntoingresso.cs
+├── 📁 01_contenutigraficisingoli
+│   ├── 📄 00_contenitoreprincipale.xaml
+│   ├── 📄 00_contenitoreprincipale.xaml.cs
+│   └── 📁 01_dashboard
+│       ├── 📁 01_info
+│       │   ├── 📄 00_infomanager.xaml
+│       │   ├── 📄 00_infomanager.xaml.cs
+│       │   ├── 📁 01_localip
+│       │   │   ├── 📄 00_localipmanager.xaml
+│       │   │   ├── 📄 00_localipmanager.xaml.cs
+│       │   │   ├── 📄 01_localip.xaml
+│       │   │   └── 📄 01_localip.xaml.cs
+│       │   ├── 📁 02_tvwebhookurl
+│       │   │   ├── 📄 00_webhooktvmanager.xaml
+│       │   │   ├── 📄 00_webhooktvmanager.xaml.cs
+│       │   │   ├── 📄 01_webhookurltv.xaml
+│       │   │   └── 📄 01_webhookurltv.xaml.cs
+│       │   ├── 📁 03_alertreceived
+│       │   │   ├── 📄 01_alertreceivedman.xaml
+│       │   │   ├── 📄 01_alertreceivedman.xaml.cs
+│       │   │   ├── 📄 02_alertreceivedcounter.xaml
+│       │   │   └── 📄 02_alertreceivedcounter.xaml.cs
+│       │   └── 📁 04_execution
+│       │       ├── 📄 00_executionman.xaml
+│       │       ├── 📄 00_executionman.xaml.cs
+│       │       ├── 📄 01_executioncounter.xaml
+│       │       └── 📄 01_executioncounter.xaml.cs
+│       ├── 📁 02_racetelemetrysponsored
+│       │   ├── 📄 00_racetelemetrysponmanager.xaml
+│       │   ├── 📄 00_racetelemetrysponmanager.xaml.cs
+│       │   ├── 📄 01_Timestamp.xaml
+│       │   ├── 📄 01_Timestamp.xaml.cs
+│       │   ├── 📄 02_Asset.xaml
+│       │   ├── 📄 02_Asset.xaml.cs
+│       │   ├── 📄 03_Direction.xaml
+│       │   ├── 📄 03_Direction.xaml.cs
+│       │   ├── 📄 04_UserID.xaml
+│       │   ├── 📄 04_UserID.xaml.cs
+│       │   ├── 📄 05_Tradecomment.xaml
+│       │   ├── 📄 05_Tradecomment.xaml.cs
+│       │   ├── 📄 06_Stoploss.xaml
+│       │   ├── 📄 06_Stoploss.xaml.cs
+│       │   ├── 📄 07_Takeprofit.xaml
+│       │   ├── 📄 07_Takeprofit.xaml.cs
+│       │   ├── 📄 08_Tradeid.xaml
+│       │   └── 📄 08_Tradeid.xaml.cs
+│       └── 📁 03_logUI
+│           ├── 📄 00_arealogUImanager.xaml
+│           ├── 📄 00_arealogUImanager.xaml.cs
+│           ├── 📄 01_arealogUI.xaml
+│           ├── 📄 01_arealogUI.xaml.cs
+│           ├── 📄 01_tastocopy.xaml
+│           └── 📄 01_tastocopy.xaml.cs
+└── 📁 02_latofunzioni
+    ├── 📄 .DS_Store
+    ├── 📄 01_collegatoreprincipale.cs
+    ├── 📁 01_listenerporta80
+    │   ├── 📄 00_listenerporta80manager.cs
+    │   ├── 📁 01_setupbase
+    │   │   ├── 📄 00_setupbasemanager.cs
+    │   │   ├── 📄 01_leggiportadatxt.cs
+    │   │   ├── 📄 02_leggipassworddatxt.cs
+    │   │   ├── 📄 03_leggipathbrokersdatxt.cs
+    │   │   └── 📄 04_leggipathdatabaseSQLITEdatxt.cs
+    │   ├── 📁 02_avviolistener
+    │   │   ├── 📄 00_avviolistenermanager.cs
+    │   │   ├── 📄 01_avviahttplistener.cs
+    │   │   ├── 📄 02_configuraprefisso.cs
+    │   │   └── 📄 03_loopascolto.cs
+    │   ├── 📁 03_processaalertinentrata
+    │   │   ├── 📄 00_processaalertmanager.cs
+    │   │   ├── 📄 01_esempiojsonfullcommented.cs
+    │   │   ├── 📄 02_validajson.cs
+    │   │   ├── 📄 03_validapassword.cs
+    │   │   └── 📄 04_assegnatradeidunivoco.cs
+    │   └── 📁 04_scrivisqlitealertricevuti
+    │       ├── 📁 01_gestiscifiledatabase
+    │       │   ├── 📄 00_gestiscifiledatabasemanager.cs
+    │       │   ├── 📄 01_creafilesqlite.cs
+    │       │   ├── 📄 02_creafilecsv.cs
+    │       │   └── 📄 03_creafiletxt.cs
+    │       └── 📁 02_scrivineldatabase
+    │           ├── 📄 00_scrivineldatabasemanager.cs
+    │           └── 📄 01_popolai3file.cs
+    ├── 📁 02_mostraui
+    │   ├── 📄 00_mostraUImanager.cs
+    │   ├── 📄 01_prendidatabaseSQalertricevuti.cs
+    │   └── 📄 02_popolalaUIalertricevuti.cs
+    ├── 📁 03_scritturasucsvdiesecuzione
+    │   ├── 📁 01_gestionedatabase2(scrittureCSV)
+    │   │   ├── 📄 00_gestionedatabase2manager.cs
+    │   │   ├── 📄 01_creafilesqlite.cs
+    │   │   ├── 📄 02_creafilecsv.cs
+    │   │   ├── 📄 03_creafiletxt.cs
+    │   │   └── 📄 04_popolai3file.cs
+    │   └── 📁 02_gestionescritturaalertdaeseguiresuCSV
+    │       ├── 📄 00_gestionescritturaalertdaeseguire.cs
+    │       ├── 📄 01_recuperapathbroker.cs
+    │       ├── 📄 02_mappaturadelcsv.cs
+    │       ├── 📄 03_inseriscialertdelcsvsendbox.cs
+    │       └── 📄 04_getalertinseritinelcsvsendbox.cs
+    └── 📁 04_letturaconfirmation
+        ├── 📁 01_gestionedatabase3(LettureconfermeEXECUTION)
+        │   ├── 📄 00_gestionedatabase3.cs
+        │   ├── 📄 01_creafilesqlite.cs
+        │   ├── 📄 02_creafilecsv.cs
+        │   ├── 📄 03_creafiletxt.cs
+        │   └── 📄 04_popolai3file.cs
+        └── 📁 02_gestionelettureEXECUTION
+            ├── 📄 00_gestioneletturaconfermeesecuzione.cs
+            ├── 📄 01_recuperapercorsibroker.cs
+            ├── 📄 02_leggicolonnatimestamp.cs
+            └── 📄 03_leggicolonnaexecution.cs
